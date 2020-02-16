@@ -1,0 +1,70 @@
+/*@import "index.css";*/
+body {
+  margin: 0;
+}
+
+
+.main-container {
+  border: 1px solid red;
+  height: 100vh;
+  width:100vw;
+  /*background: red;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  border: 1px solid red;
+  height: 30%;
+  width: 80%;
+  padding: 0 40px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.top {
+  border: 1px solid red;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-carousel {
+  overflow: hidden;
+  display: flex;
+  border: 1px solid red;
+  margin: 0;
+  height: 70%;
+}
+
+.card {
+  flex: none;
+  border: 1px solid red;
+  height: 85%;
+  width: 23%;
+  margin: auto 1%;
+  /*overflow: hidden;*/
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
