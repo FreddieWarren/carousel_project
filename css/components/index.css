@@ -5,7 +5,7 @@ body {
 
 
 .main-container {
-  border: 1px solid red;
+  /*border: 1px solid grey;*/
   height: 100vh;
   width:100vw;
   /*background: red;*/
@@ -16,8 +16,8 @@ body {
 
 .container {
   position: relative;
-  border: 1px solid red;
-  height: 30%;
+  border: 1px solid grey;
+  /*height: 40%;*/
   width: 80%;
   padding: 0 40px;
   margin: 0;
@@ -27,11 +27,24 @@ body {
 }
 
 .top {
-  border: 1px solid red;
-  height: 15%;
+  /*border: 1px solid red;*/
+  height: 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
+  margin-bottom: 5px
+}
+
+.top h2 {
+  margin-left: 10px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.top a {
+  margin-right: 10px;
 }
 
 .link {
@@ -43,18 +56,40 @@ body {
 .cards-carousel {
   overflow: hidden;
   display: flex;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   margin: 0;
-  height: 70%;
+  /*height: 80%;*/
+  width: 100%;
+  align-items: center;
 }
 
 .card {
   flex: none;
-  border: 1px solid red;
-  height: 85%;
+  /*border: 1px solid black;*/
+  height: 95%;
+  /*max-height: 38%*/
   width: 23%;
-  margin: auto 1%;
+  margin: 0 1% 3%;
   /*overflow: hidden;*/
+}
+
+.image {
+  height: 15vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  width: 100%;
+
+}
+
+img {
+  border-radius: 5px;
+  /*max-height: 300px;*/
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
 }
 
 .left-arrow {
@@ -67,4 +102,34 @@ body {
   position: absolute;
   top: 50%;
   right: 1%;
+}
+
+.card p {
+  margin: 2px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.description {
+  color: grey;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
+.width-change {
+  width: 31.3%;
+}
+
+.hidden {
+  display: none;
 }
